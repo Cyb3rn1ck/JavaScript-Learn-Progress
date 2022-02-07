@@ -376,3 +376,42 @@ console.log(typeof null);
 // } else {
 //   console.log("Not a valid day!");
 // }
+
+// const age = 19;
+// // age >= 18
+// //   ? console.log("I like to drink wine 🍷")
+// //   : console.log("I like to drink water 🚰");
+
+// // const drink = age >= 18 ? "wine 🍷" : "water 🚰";
+// // console.log(drink);
+
+// // let drink2;
+// // if (age >= 18) {
+// //   drink2 = "wine 🍷";
+// // } else {
+// //   drink2 = "water 🚰";
+// // }
+// // console.log(drink2);
+
+// // console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 🚰"}`);
+
+// console.log(
+//   `${age > 18 ? "wine 🍷" : age === 18 ? "let's check your age" : "water 🚰"}`
+// );
+
+// Coding Challange #4
+
+//Entering bill value
+// const bill = Number(prompt("Enter Bill value:"));
+// console.log(`Your Bill was: ${bill}$`);
+
+// const tipLowBill = (bill * 15) / 100;
+// const tipHighBill = (bill * 20) / 100;
+
+// const result =
+//   bill >= 50 && bill <= 300
+//     ? `Your tip is ${tipLowBill}, and the total value is: ${bill + tipLowBill}$`
+//     : `Your tip is ${tipHighBill}, and the total value is: ${
+//         bill + tipHighBill
+//       }$`;
+// console.log(result);
